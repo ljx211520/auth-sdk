@@ -1,0 +1,24 @@
+{
+    "name": "looksky/auth-sdk",
+    "description": "sso auth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "looksky",
+            "email": "jianxiong.liu86@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+          "Looksky\\AuthSdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Looksky\\AuthSdk\\Tests\\": "tests/"
+        }
+    }
+}
